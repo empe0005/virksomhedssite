@@ -3,6 +3,7 @@ html {
   --sort: rgb(0, 0, 0);
   --hvid: #ffffff;
   --antonio: "Antonio", sans-serif;
+  --anton: "Anton", sans-serif;
 }
 
 footer {
@@ -16,4 +17,8 @@ footer {
 .logo {
   align-self: center;
   justify-self: center;
+}
+
+h1 {
+  font-family: var(--anton);
 }
