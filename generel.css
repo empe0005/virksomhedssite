@@ -1,0 +1,19 @@
+html {
+  --rod: #ff0000;
+  --sort: rgb(0, 0, 0);
+  --hvid: #ffffff;
+  --antonio: "Antonio", sans-serif;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: var(--sort);
+  color: var(--hvid);
+  font-family: var(--antonio);
+}
+
+.logo {
+  align-self: center;
+  justify-self: center;
+}
