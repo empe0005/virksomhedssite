@@ -15,3 +15,9 @@
     position: relative;
     left: 20%;
 }
+
+@media (max-width: 750px) {
+    .job p {
+        max-width: 65ch;
+    }    
+}
