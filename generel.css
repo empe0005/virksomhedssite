@@ -32,3 +32,14 @@ h2 {
   font-family: var(--anton);
   color: var(--hvid);
 }
+
+a {
+  font-family: var(--anton);
+  color: var(--hvid);
+  text-decoration: none;
+}
+
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+}
