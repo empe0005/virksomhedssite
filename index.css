@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
+  padding-top: 20px;
 }
 a {
   font-family: var(--anton);
@@ -20,4 +21,34 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
   align-self: center;
+}
+
+.grid1 h4 {
+  font-family: var(--anton);
+  color: var(--rod);
+  font-size: 8rem;
+  margin: 0;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+h2 {
+  margin: 0;
+}
+h3 {
+  font-family: var(--anton);
+  color: var(--rod);
+}
+
+.dato {
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
 }

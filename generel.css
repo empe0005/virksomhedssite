@@ -43,3 +43,8 @@ main {
   margin-left: 8%;
   margin-right: 8%;
 }
+
+p {
+  font-family: var(--antonio);
+  color: var(--hvid);
+}
