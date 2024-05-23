@@ -1,0 +1,17 @@
+.job p {
+    max-width: 95ch;
+    line-height: 30px;
+    position: relative;
+    left: 25%;
+}
+
+.frivillig {
+    position: relative;
+    left: 44%;
+}
+
+.video {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
