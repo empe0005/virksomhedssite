@@ -8,5 +8,7 @@
     .drinks {
         margin-top: 50px;
         margin-bottom: 100px;
+        width: 85%;
+        margin-left: 100px;
     }
 }
