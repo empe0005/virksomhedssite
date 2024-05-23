@@ -3,6 +3,7 @@ html {
   --sort: rgb(0, 0, 0);
   --hvid: #ffffff;
   --antonio: "Antonio", sans-serif;
+  --anton: "Anton", sans-serif;
 }
 
 footer {
@@ -13,7 +14,32 @@ footer {
   font-family: var(--antonio);
 }
 
+body {
+  background-color: var(--sort);
+}
+
 .logo {
   align-self: center;
   justify-self: center;
+}
+
+h1 {
+  font-family: var(--anton);
+  color: var(--hvid);
+}
+
+h2 {
+  font-family: var(--anton);
+  color: var(--hvid);
+}
+
+a {
+  font-family: var(--anton);
+  color: var(--hvid);
+  text-decoration: none;
+}
+
+main {
+  margin-left: 8%;
+  margin-right: 8%;
 }

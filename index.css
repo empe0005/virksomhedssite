@@ -1,0 +1,23 @@
+.titel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text {
+  object-fit: cover;
+  justify-self: center;
+}
+
+.koncerter {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+a {
+  font-family: var(--anton);
+  color: var(--hvid);
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
