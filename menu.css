@@ -1,75 +1,77 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+@media screen and (min-width: 750px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-.logo img {
-  width: 100px;
-  height: 100px;
-}
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
 
-nav {
-  display: flex;
-  align-items: center;
-}
+  nav {
+    display: flex;
+    align-items: center;
+  }
 
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-.menu li {
-  margin-right: 20px;
-  font-family: var(--antonio);
-  font-weight: 500;
-  font-style: normal;
-  font-size: large;
-}
+  .menu li {
+    margin-right: 20px;
+    font-family: var(--antonio);
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+  }
 
-.menu li:last-child {
-  margin-right: 0;
-}
-.logo a {
-  display: block;
-  padding: 10px;
-  transition: color 0.3s;
-}
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .logo a {
+    display: block;
+    padding: 10px;
+    transition: color 0.3s;
+  }
 
-.menu a {
-  display: block;
-  padding: 10px;
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s;
-  text-align: end;
-}
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: end;
+  }
 
-.menu a:hover {
-  color: var(--rod);
-}
+  .menu a:hover {
+    color: var(--rod);
+  }
 
-.burger {
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-}
+  .burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
 
-.burger .line {
-  width: 100%;
-  height: 2px;
-  background-color: var(--rod);
-  margin-bottom: 5px;
-  transition: 0.2s linear;
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--rod);
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+  .burger {
+    display: none;
+  }
 }
-.burger {
-  display: none;
-}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 7500px) {
   .menu {
     display: none;
   }
@@ -108,5 +110,9 @@ nav {
 
   nav.active .menu a {
     font-size: 24px;
+  }
+  .logo img {
+    width: 70px;
+    height: 70px;
   }
 }

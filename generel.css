@@ -12,9 +12,13 @@ footer {
   background-color: var(--sort);
   color: var(--hvid);
   font-family: var(--antonio);
+  font-size: xx-small;
   margin-top: 2rem;
+  gap: 5px;
 }
-
+footer h3 {
+  color: var(--hvid);
+}
 body {
   background-color: var(--sort);
 }
@@ -56,5 +60,17 @@ img {
 @media (max-width: 750px) {
   main {
     margin: 3%;
+  }
+}
+@media (min-width: 750px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--sort);
+    color: var(--hvid);
+    font-family: var(--antonio);
+    margin-top: 2rem;
+    font-size: large;
+    margin-top: 2rem;
   }
 }

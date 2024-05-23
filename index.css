@@ -1,38 +1,42 @@
-.titel {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
+@media (min-width: 750px) {
+  a {
+    font-family: var(--anton);
+    color: var(--hvid);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  h3 {
+    padding: 20px;
+  }
 
-.text {
-  object-fit: cover;
-  justify-self: center;
+  .upcoming {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-
 .koncerter {
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding-top: 20px;
 }
-a {
-  font-family: var(--anton);
-  color: var(--hvid);
-  text-decoration: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  align-self: center;
+h2 {
+  margin: 0;
 }
-
+h3 {
+  font-family: var(--anton);
+  color: var(--rod);
+  margin: 0;
+}
 h4 {
   font-family: var(--anton);
   color: var(--rod);
   font-size: 8rem;
   margin: 0;
-}
-.upcoming {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 20px;
 }
 .grid1 {
   display: grid;
@@ -75,17 +79,6 @@ h4 {
   grid-row: 2/3;
   justify-self: center;
   align-self: center;
-}
-
-h2 {
-  margin: 0;
-}
-h3 {
-  font-family: var(--anton);
-  color: var(--rod);
-}
-
-.dato {
 }
 .info {
   display: grid;
