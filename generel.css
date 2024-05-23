@@ -12,6 +12,7 @@ footer {
   background-color: var(--sort);
   color: var(--hvid);
   font-family: var(--antonio);
+  margin-top: 2rem;
 }
 
 body {
@@ -47,6 +48,9 @@ main {
 p {
   font-family: var(--antonio);
   color: var(--hvid);
+}
+img {
+  width: 100%;
 }
 
 @media (max-width: 750px) {
