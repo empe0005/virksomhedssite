@@ -23,17 +23,58 @@ a {
   align-self: center;
 }
 
-.grid1 h4 {
+h4 {
   font-family: var(--anton);
   color: var(--rod);
   font-size: 8rem;
   margin: 0;
 }
-
+.upcoming {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
 .grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 15px;
+  background-image: url(img/IMG_4948.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 15px;
+  background-image: url(img/IMG_4962.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 15px;
+  background-image: url(img/IMG_4960.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dag {
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: end;
+}
+.nummer {
+  grid-row: 2/3;
+  justify-self: center;
+}
+
+.event {
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: center;
 }
 
 h2 {
