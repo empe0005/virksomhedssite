@@ -1,4 +1,11 @@
-h1 {
+
+@media (max-width: 750px) {
+    
+}
+
+
+@media (min-width: 750px) {
+  h1 {
   text-align: center;
 }
 
@@ -8,8 +15,57 @@ h1 {
   grid-column: 1fr 1fr 1fr;
 }
 
+.billede1 {
+  margin-top: 25px;
+  margin-right: -5px;
+}
+
 p {
   line-height: 2rem;
   font-family: var(--antonio);
-  font-size: large;
+  font-size: medium;
+}  
+
+.tekst2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 1fr 1fr 1fr;
 }
+
+.billede2 {
+  order: -1;
+  margin-top: 13px;
+  margin-right: 50px;
+}
+
+.tekst3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 1fr 1fr 1fr;
+}
+
+.billede3 {
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+.tekst4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 1fr 1fr 1fr;
+}
+
+.billede4 {
+  margin-right: 50px;
+}
+
+}
+
+.h1 {
+  color:#ff0000;
+}
+
+
+
+
+
