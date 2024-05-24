@@ -12,6 +12,15 @@ footer {
   background-color: var(--sort);
   color: var(--hvid);
   font-family: var(--antonio);
+  font-size: xx-small;
+  margin-top: 2rem;
+  gap: 5px;
+}
+footer h3 {
+  color: var(--hvid);
+}
+body {
+  background-color: var(--sort);
 }
 
 .logo {
@@ -21,4 +30,47 @@ footer {
 
 h1 {
   font-family: var(--anton);
+  color: var(--hvid);
+}
+
+h2 {
+  font-family: var(--anton);
+  color: var(--hvid);
+}
+
+a {
+  font-family: var(--anton);
+  color: var(--hvid);
+  text-decoration: none;
+}
+
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+p {
+  font-family: var(--antonio);
+  color: var(--hvid);
+}
+img {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  main {
+    margin: 3%;
+  }
+}
+@media (min-width: 750px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--sort);
+    color: var(--hvid);
+    font-family: var(--antonio);
+    margin-top: 2rem;
+    font-size: large;
+    margin-top: 2rem;
+  }
 }
