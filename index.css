@@ -43,7 +43,7 @@ h4 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 4fr;
   margin: 15px;
-  background-image: url(img/IMG_4948.webp);
+  background-image: url(dropinn-billeder/live4.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,7 +52,7 @@ h4 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 4fr;
   margin: 15px;
-  background-image: url(img/IMG_4962.webp);
+  background-image: url(dropinn-billeder/live8.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -61,7 +61,34 @@ h4 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 4fr;
   margin: 15px;
-  background-image: url(img/IMG_4960.webp);
+  background-image: url(dropinn-gamledage/fællesbillede.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 15px;
+  background-image: url(dropinn-billeder/live1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 15px;
+  background-image: url(dropinn-billeder/live5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 15px;
+  background-image: url(dropinn-billeder/live4.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }

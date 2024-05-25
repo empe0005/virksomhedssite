@@ -1,77 +1,87 @@
-@media (min-width: 750px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .logo img {
-    width: 100px;
-    height: 100px;
-  }
-
-  nav {
-    display: flex;
-    align-items: center;
-  }
-
-  .menu {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .menu li {
-    margin-right: 20px;
-    font-family: var(--antonio);
-    font-weight: 500;
-    font-style: normal;
-    font-size: large;
-  }
-
-  .menu li:last-child {
-    margin-right: 0;
-  }
-  .logo a {
-    display: block;
-    padding: 10px;
-    transition: color 0.3s;
-  }
-
-  .menu a {
-    display: block;
-    padding: 10px;
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s;
-    text-align: end;
-  }
-
-  .menu a:hover {
-    color: var(--rod);
-  }
-
-  .burger {
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
-  }
-
-  .burger .line {
-    width: 100%;
-    height: 2px;
-    background-color: var(--rod);
-    margin-bottom: 5px;
-    transition: 0.2s linear;
-  }
-  .burger {
-    display: none;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width: 750px) {
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+  font-family: var(--antonio);
+  font-weight: 100;
+  font-style: normal;
+  font-size: large;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+.logo a {
+  display: block;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: var(--antonio);
+}
+
+.menu a:hover {
+  color: var(--rod);
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--rod);
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+.button {
+  text-decoration: none;
+  background-color: var(--rod);
+  padding: 2px 6px 2px 6px;
+  border-radius: 10px;
+}
+.button a:hover {
+  color: var(--sort);
+}
+
+@media screen and (max-width: 800px) {
   .menu {
     display: none;
   }
