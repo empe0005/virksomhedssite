@@ -1,9 +1,12 @@
-/* button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
+.search_bar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+
 }
+
+
 
 svg {
     color: #fff;
@@ -14,7 +17,7 @@ svg {
 }
 
 form {
-    background-color: #4654e1;
+    background-color: #ff0000;
     width: 300px;
     height: 44px;
     border-radius: 5px;
@@ -35,23 +38,34 @@ input {
 ::placeholder {
     color: #fff;
     opacity: 0.7;
-} */
-/* chatgpt search bar */
+    font-family: var(--anton);
+    
+
+} 
+/* chatgpt search bar  */
 
 h1{
     color: var(--rod);
-    font-size: 4rem;
-    padding: 0;
+    font-size: 8rem;
+    padding: 10px;
     margin: 0;
     font-family: var(--anton);
     text-align: left;
+}
+.dato1{
+    color: var(--rod);
+        font-size: 4rem;
+        padding: 0;
+        margin: 0;
+        font-family: var(--anton);
+        text-align: left;
 }
 
 p{
     color: var(--hvid);
 }
 
-.line {
+.line_KC {
     border-top: 1px solid #ff0000;
     width: 100%;
     height: 1px;
@@ -61,6 +75,12 @@ p{
 /* mobil webiste */
 @media (max-width: 750px) {
 
+    .search_bar {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
     .dato_box {
         display: grid;
@@ -89,6 +109,7 @@ p{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     text-align: center;
+    
 }
 
 .text3 {
@@ -96,12 +117,12 @@ p{
     font-size: 2rem;
     padding: 0;
     font-family: var(--anton);
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
     text-align: center;
 }
 
-.text4 {
+/* .text4 {
     color: var(--rod);
     font-size: 2rem;
     padding: 0;
@@ -109,10 +130,11 @@ p{
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     text-align: center;
-}
+} */
 .pic{
     grid-column: 2 / 4;
     grid-row: 2 / 3;
+    padding-top: 10px;
 
 }
 
@@ -120,12 +142,18 @@ p{
 
 /* desktop website */
 @media (min-width: 750px) {
-
+.search_bar {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 110%);
+    }
 
     .dato_box {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        
         margin-left: 8%;
         margin-right: 8%;
 
@@ -133,13 +161,16 @@ p{
 
     .text1 {
         color: var(--rod);
-        font-size: 12rem;
+        font-size: 16rem;
         padding: 0;
         font-family: var(--anton);
         grid-column: 1 / 2;
-        grid-row: 1 / 4;
+        grid-row: 1 / 2;
         text-align: center;
-
+        margin-top: 40px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        
     }
 
     .text2 {
@@ -147,12 +178,25 @@ p{
         font-size: 3rem;
         padding: 0;
         font-family: var(--anton);
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        
+        margin-top: -20px;
+        margin-left: 120px;
+        margin-bottom: -43px;
+    }
+
+    .text3 {
+        color: var(--rod);
+        font-size: 2.5rem;
+        padding: 0;
+        font-family: var(--anton);
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         text-align: center;
     }
 
-    .text3 {
+    /* .text4 {
         color: var(--rod);
         font-size: 3rem;
         padding: 0;
@@ -160,21 +204,11 @@ p{
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         text-align: center;
-    }
-
-    .text4 {
-        color: var(--rod);
-        font-size: 3rem;
-        padding: 0;
-        font-family: var(--anton);
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-        text-align: center;
-    }
+    } */
 
     .pic {
         grid-column: 3 / 4;
-        grid-row: 1/ 4;
+        grid-row: 1/ 2;
         width: 100%;
         height: 100%;
         object-fit: cover;
