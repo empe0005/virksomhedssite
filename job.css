@@ -12,6 +12,12 @@ text-align: center;
 
 } 
 
+main {
+    background-image: url(billeder/frivillig-baggrund.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 @media (min-width: 750px) {
     .job p {
         max-width: 95ch;
