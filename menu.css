@@ -81,6 +81,9 @@ nav {
 .button a:hover {
   color: var(--sort);
 }
+.menu li:last-child a:hover {
+  color: var(--sort);
+}
 
 @media screen and (max-width: 800px) {
   .menu {
