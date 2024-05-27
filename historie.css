@@ -1,71 +1,70 @@
-
 @media (max-width: 750px) {
-    
 }
-
 
 @media (min-width: 750px) {
   h1 {
-  text-align: center;
-}
+    text-align: center;
+  }
 
-.tekst1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column: 1fr 1fr 1fr;
-}
+  .tekst1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1fr 1fr 1fr;
+  }
 
-.billede1 {
-  margin-top: 25px;
-  margin-right: -5px;
-}
+  .billede1 {
+    display: grid;
+    grid-template-rows: 1/2;
+    grid-row: 1fr 1fr;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
 
-p {
-  line-height: 2rem;
-  font-family: var(--antonio);
-  font-size: medium;
-}  
+  p {
+    line-height: 2rem;
+    font-family: var(--antonio);
+    font-size: medium;
+  }
 
-.tekst2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column: 1fr 1fr 1fr;
-}
+  .tekst2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column: 1fr 1fr 1fr;
+  }
 
-.billede2 {
-  order: -1;
-  margin-top: 13px;
-  margin-right: 50px;
-}
+  .billede2 {
+    order: -1;
+    margin-top: 13px;
+    margin-right: 50px;
+  }
 
-.tekst3 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column: 1fr 1fr 1fr;
-}
+  .tekst3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column: 1fr 1fr 1fr;
+  }
 
-.billede3 {
-  margin-top: 150px;
-  margin-right: 50px;
-}
+  .billede3 {
+    margin-top: 150px;
+    margin-right: 50px;
+  }
 
-.tekst4 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column: 1fr 1fr 1fr;
-}
+  .tekst4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column: 1fr 1fr 1fr;
+  }
 
-.billede4 {
-  margin-right: 50px;
-}
-
+  .billede4 {
+    margin-left: 50px;
+  }
 }
 
 .h1 {
-  color:#ff0000;
+  color: #ff0000;
 }
 
 
-
-
-
+.nutiden{
+  margin-right: 800px;
+}
