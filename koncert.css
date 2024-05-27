@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 10vh;
 
 }
 
@@ -76,9 +76,9 @@ p{
 @media (max-width: 750px) {
 
     .search_bar {
-            position: absolute;
+            position: relative;
             top: 20%;
-            left: 50%;
+            left: 35%;
             transform: translate(-50%, -50%);
         }
 
