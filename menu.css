@@ -1,7 +1,8 @@
 header {
   display: flex;
   justify-content: space-between;
-
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: rgb(0, 0, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -36,7 +37,7 @@ nav {
 }
 .logo a {
   display: block;
-  padding-left: 20px;
+  padding-left: 10px;
   transition: color 0.3s;
 }
 
