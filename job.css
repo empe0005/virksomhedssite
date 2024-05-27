@@ -12,11 +12,7 @@ text-align: center;
 
 } 
 
-main {
-    background-image: url(billeder/frivillig-baggrund.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
+
 
 @media (min-width: 750px) {
     .job p {
@@ -29,4 +25,10 @@ background-size: cover;
         width: 60%;
         margin-left: 250px;
     } 
+
+    main {
+        background-image: url(billeder/frivillig-baggrund.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
